@@ -28,8 +28,7 @@ class MoveView extends Ui.WatchFace {
     function onUpdate(dc) {
         // Set background color
         dc.clear();
-        dc.drawBitmap(0, 0, background);
-        dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT);
+        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
         
         var steps = ActMonitor.getInfo().distance;
         steps = steps * 6.213 * Math.pow(10, -6);
@@ -42,9 +41,9 @@ class MoveView extends Ui.WatchFace {
         dc.drawBitmap(0, 0, background);
         var x = dc.getWidth() / 2;
         var y = dc.getHeight() / 2;
-        dc.drawText(x, y, Gfx.FONT_LARGE, timeString, Gfx.TEXT_JUSTIFY_CENTER);
         y = dc.getHeight() / 3;
-    	dc.drawText(x, y, Gfx.FONT_SMALL, "The time is " + steps, Gfx.TEXT_JUSTIFY_CENTER);
+    	dc.drawText(x, y, Gfx.FONT_MEDIUM, timeString, Gfx.TEXT_JUSTIFY_CENTER);
+    	dc.drawText(x, y + 50, Gfx.FONT_MEDIUM, "Hello", Gfx.TEXT_JUSTIFY_CENTER);
     }
 
     //! Called when this View is removed from the screen. Save the
