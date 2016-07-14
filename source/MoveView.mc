@@ -2,8 +2,11 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Lang as Lang;
-
+using Toybox.ActivityMonitor as ActMonitor;
+using Toybox.Math as Math;
 class MoveView extends Ui.WatchFace {
+
+	var background;
 
     function initialize() {
         WatchFace.initialize();
@@ -11,6 +14,7 @@ class MoveView extends Ui.WatchFace {
 
     //! Load your resources here
     function onLayout(dc) {
+    	background = Ui.loadResource(Rez.Drawables.grand_canyon);
         setLayout(Rez.Layouts.WatchFace(dc));
     }
 
@@ -24,19 +28,23 @@ class MoveView extends Ui.WatchFace {
     function onUpdate(dc) {
         // Set background color
         dc.clear();
+        dc.drawBitmap(0, 0, background);
         dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_TRANSPARENT);
+        
+        var steps = ActMonitor.getInfo().distance;
+        steps = steps * 6.213 * Math.pow(10, -6);
 
         // Get the current time
         var clockTime = Sys.getClockTime();
         var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min]);
 
         // Draw the time
-        dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_WHITE);
+        dc.drawBitmap(0, 0, background);
         var x = dc.getWidth() / 2;
         var y = dc.getHeight() / 2;
         dc.drawText(x, y, Gfx.FONT_LARGE, timeString, Gfx.TEXT_JUSTIFY_CENTER);
         y = dc.getHeight() / 3;
-    	dc.drawText(x, y, Gfx.FONT_SMALL, "The time is", Gfx.TEXT_JUSTIFY_CENTER);
+    	dc.drawText(x, y, Gfx.FONT_SMALL, "The time is " + steps, Gfx.TEXT_JUSTIFY_CENTER);
     }
 
     //! Called when this View is removed from the screen. Save the
