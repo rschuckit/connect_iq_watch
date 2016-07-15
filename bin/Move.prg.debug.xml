@@ -1,36 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="12" pc="268435458" symbol="initialize"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="17" pc="268435479" symbol="onLayout"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="18" pc="268435522" symbol="onLayout"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="30" pc="268435565" symbol="onUpdate"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="31" pc="268435577" symbol="onUpdate"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="33" pc="268435613" symbol="onUpdate"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="34" pc="268435636" symbol="onUpdate"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="37" pc="268435678" symbol="onUpdate"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="38" pc="268435695" symbol="onUpdate"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="41" pc="268435755" symbol="onUpdate"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="42" pc="268435785" symbol="onUpdate"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="43" pc="268435804" symbol="onUpdate"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="44" pc="268435823" symbol="onUpdate"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="45" pc="268435842" symbol="onUpdate"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="46" pc="268435884" symbol="onUpdate"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveApp.mc" lineNum="6" pc="268435947" symbol="initialize"/>
-<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveApp.mc" lineNum="19" pc="268435974" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="20" pc="268436014" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="21" pc="268436028" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="22" pc="268436125" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="23" pc="268436140" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="24" pc="268436192" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="25" pc="268436238" symbol="WatchFace"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="16" pc="268435458" symbol="initialize"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="17" pc="268435476" symbol="initialize"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="18" pc="268435505" symbol="initialize"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="19" pc="268435518" symbol="initialize"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="20" pc="268435531" symbol="initialize"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="25" pc="268435551" symbol="onLayout"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="26" pc="268435588" symbol="onLayout"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="27" pc="268435625" symbol="onLayout"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="28" pc="268435641" symbol="onLayout"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="29" pc="268435657" symbol="onLayout"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="41" pc="268435700" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="42" pc="268435712" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="44" pc="268435748" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="45" pc="268435771" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="46" pc="268435813" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="48" pc="268435831" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="50" pc="268435854" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="51" pc="268435892" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="55" pc="268435914" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="56" pc="268435931" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="57" pc="268435941" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="58" pc="268435957" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="59" pc="268435974" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="62" pc="268435993" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="65" pc="268436041" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="66" pc="268436080" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="67" pc="268436099" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="68" pc="268436118" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="69" pc="268436137" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveView.mc" lineNum="70" pc="268436179" symbol="onUpdate"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveApp.mc" lineNum="6" pc="268436278" symbol="initialize"/>
+<entry filename="C:\\Users\\schuckit\\workspace\\Move\\source\\MoveApp.mc" lineNum="19" pc="268436305" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="22" pc="268436345" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268436359" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268436456" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="25" pc="268436471" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="26" pc="268436523" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="27" pc="268436569" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
+<entry field="true" id="17" symbol="badlands"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8" object="true" symbol="MoveView"/>
 <entry id="8389349" symbol="justification"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="13" symbol="grand_canyon"/>
+<entry field="true" id="15" symbol="grand_canyon"/>
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
@@ -38,10 +54,13 @@
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="15" symbol="AppName"/>
+<entry field="true" id="19" symbol="AppName"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="12" symbol="numImages"/>
+<entry field="true" id="11" symbol="imageIndex"/>
 <entry id="8388641" module="true" symbol="Math"/>
-<entry field="true" id="14" symbol="LauncherIcon"/>
+<entry field="true" id="18" symbol="LauncherIcon"/>
+<entry field="true" id="10" symbol="backgrounds"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8388771" module="true" symbol="Drawables"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
@@ -50,22 +69,28 @@
 <entry id="8389348" symbol="font"/>
 <entry id="9" object="true" symbol="MoveApp"/>
 <entry id="8389347" symbol="color"/>
-<entry id="12" module="true" symbol="Layouts"/>
+<entry id="14" module="true" symbol="Layouts"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="10" symbol="background"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="11" module="true" symbol="Menus"/>
+<entry id="13" module="true" symbol="Menus"/>
+<entry field="true" id="8388913" symbol="stepGoal"/>
 <entry id="8388772" module="true" symbol="Fonts"/>
+<entry field="true" id="16" symbol="yos"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435935" name="x" stackId="5" startPc="268435565"/>
-<entry endPc="268435935" name="steps" stackId="2" startPc="268435565"/>
-<entry endPc="268435935" name="timeString" stackId="4" startPc="268435565"/>
-<entry endPc="268435935" name="clockTime" stackId="3" startPc="268435565"/>
-<entry endPc="268435935" name="y" stackId="6" startPc="268435565"/>
-<entry endPc="268436255" name="rez_cmp_local_label_TimeLabel_fontHeight" stackId="4" startPc="268436014"/>
-<entry endPc="268436255" name="rez_cmp_local_label_TimeLabel_font" stackId="2" startPc="268436014"/>
-<entry endPc="268436255" name="rez_cmp_local_label_TimeLabel" stackId="3" startPc="268436014"/>
+<entry endPc="268435694" name="yos" stackId="2" startPc="268435551"/>
+<entry endPc="268435694" name="badlands" stackId="3" startPc="268435551"/>
+<entry endPc="268436266" name="x" stackId="8" startPc="268435700"/>
+<entry endPc="268436266" name="adjustedMin" stackId="5" startPc="268435700"/>
+<entry endPc="268436266" name="steps" stackId="3" startPc="268435700"/>
+<entry endPc="268436266" name="adjustedHour" stackId="6" startPc="268435700"/>
+<entry endPc="268436266" name="timeString" stackId="7" startPc="268435700"/>
+<entry endPc="268436266" name="clockTime" stackId="4" startPc="268435700"/>
+<entry endPc="268436266" name="y" stackId="9" startPc="268435700"/>
+<entry endPc="268436266" name="distance" stackId="2" startPc="268435700"/>
+<entry endPc="268436586" name="rez_cmp_local_label_TimeLabel_fontHeight" stackId="4" startPc="268436345"/>
+<entry endPc="268436586" name="rez_cmp_local_label_TimeLabel_font" stackId="2" startPc="268436345"/>
+<entry endPc="268436586" name="rez_cmp_local_label_TimeLabel" stackId="3" startPc="268436345"/>
 </localVars>
 <annotations/>
 <functions>
