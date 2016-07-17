@@ -1,0 +1,94 @@
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics as Gfx;
+using Toybox.System as Sys;
+using Toybox.Lang as Lang;
+using Toybox.ActivityMonitor as ActMonitor;
+using Toybox.Math as Math;
+class MoveView extends Ui.WatchFace {
+
+	var resourceNames;
+	var background;
+	var stepGoal; 
+	var imageIndex;
+	var numImages;
+	var imageLabel;
+	var colorLabels;
+
+    function initialize() {
+        WatchFace.initialize();
+        
+        resourceNames = [Rez.Drawables.grand_canyon, Rez.Drawables.yellowstone, Rez.Drawables.badlands];
+        stepGoal = ActMonitor.getInfo().stepGoal;
+        numImages = 2;
+        imageIndex = ActMonitor.getInfo().steps/stepGoal;
+        
+        imageLabel = ["Grand Canyon", "Yellowstone", "Badlands"];
+        colorLabels = [Gfx.COLOR_WHITE, Gfx.COLOR_BLACK, Gfx.COLOR_BLACK];
+    }
+
+    //! Load your resources here
+    function onLayout(dc) {
+        setLayout(Rez.Layouts.WatchFace(dc));
+    }
+
+    //! Called when this View is brought to the foreground. Restore
+    //! the state of this View and prepare it to be shown. This includes
+    //! loading resources into memory.
+    function onShow() {
+    }
+
+    //! Update the view
+    function onUpdate(dc) {
+        dc.clear();
+        dc.setColor(colorLabels[imageIndex], Gfx.COLOR_TRANSPARENT);
+        var steps = ActMonitor.getInfo().steps;
+        
+        if (steps >= stepGoal/numImages * (imageIndex + 1) && steps <= stepGoal) {
+        	imageIndex++;
+        }
+
+        var clockTime = Sys.getClockTime();
+        var adjustedMin = clockTime.min;
+        var adjustedHour = clockTime.hour;
+        
+        if (adjustedHour > 12) {
+        	adjustedHour = clockTime.hour % 12;
+        } else if (adjustedHour == 0) {
+        	adjustedHour = 12;
+        }
+        
+        if (clockTime.min < 10) {
+        	adjustedMin = "0" + clockTime.min; 
+        }
+        var timeString = Lang.format("$1$:$2$", [adjustedHour, adjustedMin]);
+        
+        setBackground(imageIndex);
+
+        // Draw the time
+        dc.drawBitmap(0, 0, background);
+        var x = dc.getWidth();
+        var y = dc.getHeight();
+    	dc.drawText(x/2, y/2, Gfx.FONT_NUMBER_HOT, timeString, Gfx.TEXT_JUSTIFY_CENTER);
+    	dc.drawText(x/2, y - y/2, Gfx.FONT_LARGE, steps + "/" + (stepGoal/numImages * (imageIndex + 1)), Gfx.TEXT_JUSTIFY_CENTER);
+    	dc.drawText(x/2, y - y/5, Gfx.FONT_SMALL, imageLabel[imageIndex], Gfx.TEXT_JUSTIFY_CENTER);
+    }
+
+    //! Called when this View is removed from the screen. Save the
+    //! state of this View here. This includes freeing resources from
+    //! memory.
+    function onHide() {
+    }
+
+    //! The user has just looked at their watch. Timers and animations may be started here.
+    function onExitSleep() {
+    }
+
+    //! Terminate any active timers and prepare for slow updates.
+    function onEnterSleep() {
+    }
+    
+    function setBackground(index) {
+    	background = Ui.loadResource(resourceNames[imageIndex % numImages]);
+    }
+
+}

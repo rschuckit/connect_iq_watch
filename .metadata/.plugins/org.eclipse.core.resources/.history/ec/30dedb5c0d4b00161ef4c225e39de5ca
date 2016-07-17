@@ -1,0 +1,5 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="grand_canyon" filename="grand_canyon.jpg" />
+    <bitmap id="badlands" filename="batlands.jpg" />
+</drawables>

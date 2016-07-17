@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Git\\connect_iq_watch\\test\\source\\testView.mc" lineNum="9" pc="268435458" symbol="initialize"/>
+<entry filename="C:\\Git\\connect_iq_watch\\test\\source\\testView.mc" lineNum="14" pc="268435479" symbol="onLayout"/>
+<entry filename="C:\\Git\\connect_iq_watch\\test\\source\\testView.mc" lineNum="26" pc="268435522" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\test\\source\\testView.mc" lineNum="27" pc="268435539" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\test\\source\\testView.mc" lineNum="28" pc="268435613" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\test\\source\\testView.mc" lineNum="29" pc="268435637" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\test\\source\\testView.mc" lineNum="32" pc="268435651" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\test\\source\\testApp.mc" lineNum="6" pc="268435683" symbol="initialize"/>
+<entry filename="C:\\Git\\connect_iq_watch\\test\\source\\testApp.mc" lineNum="19" pc="268435710" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="19" pc="268435750" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="20" pc="268435764" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="21" pc="268435861" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="22" pc="268435876" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268435928" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268435974" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388770" module="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8388769" module="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="13" symbol="AppName"/>
+<entry id="8" object="true" symbol="testView"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="12" symbol="LauncherIcon"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389347" symbol="color"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="9" object="true" symbol="testApp"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="10" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435671" name="view" stackId="4" startPc="268435522"/>
+<entry endPc="268435671" name="timeString" stackId="3" startPc="268435522"/>
+<entry endPc="268435671" name="clockTime" stackId="2" startPc="268435522"/>
+<entry endPc="268435991" name="rez_cmp_local_label_TimeLabel_fontHeight" stackId="4" startPc="268435750"/>
+<entry endPc="268435991" name="rez_cmp_local_label_TimeLabel_font" stackId="2" startPc="268435750"/>
+<entry endPc="268435991" name="rez_cmp_local_label_TimeLabel" stackId="3" startPc="268435750"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry name="initialize" parent="testView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onLayout" parent="testView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onShow" parent="testView">
+<documentation><![CDATA[<div class="description"> Called when this View is brought to the foreground. Restore<br/> the state of this View and prepare it to be shown. This includes<br/> loading resources into memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onUpdate" parent="testView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onHide" parent="testView">
+<documentation><![CDATA[<div class="description"> Called when this View is removed from the screen. Save the<br/> state of this View here. This includes freeing resources from<br/> memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onExitSleep" parent="testView">
+<documentation><![CDATA[<div class="description"> The user has just looked at their watch. Timers and animations may be started here.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onEnterSleep" parent="testView">
+<documentation><![CDATA[<div class="description"> Terminate any active timers and prepare for slow updates.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="initialize" parent="testApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStart" parent="testApp">
+<documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onStop" parent="testApp">
+<documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="getInitialView" parent="testApp">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+</debugInfo>

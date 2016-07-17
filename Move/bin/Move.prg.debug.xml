@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="18" pc="268435458" symbol="initialize"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="20" pc="268435476" symbol="initialize"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="21" pc="268435574" symbol="initialize"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="22" pc="268435603" symbol="initialize"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="23" pc="268435616" symbol="initialize"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="24" pc="268435663" symbol="initialize"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="25" pc="268435716" symbol="initialize"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="30" pc="268435793" symbol="onLayout"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="41" pc="268435836" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="42" pc="268435848" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="43" pc="268435889" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="45" pc="268435912" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="46" pc="268435926" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="49" pc="268436006" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="52" pc="268436028" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="53" pc="268436045" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="54" pc="268436055" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="56" pc="268436065" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="57" pc="268436076" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="59" pc="268436106" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="60" pc="268436113" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="63" pc="268436129" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="64" pc="268436146" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="66" pc="268436165" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="68" pc="268436213" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="71" pc="268436233" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="72" pc="268436263" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="73" pc="268436276" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="74" pc="268436289" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="75" pc="268436346" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="76" pc="268436442" symbol="onUpdate"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="94" pc="268436526" symbol="setBackground"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveApp.mc" lineNum="6" pc="268436578" symbol="initialize"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveApp.mc" lineNum="19" pc="268436605" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="22" pc="268436645" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268436659" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268436756" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="25" pc="268436771" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="26" pc="268436823" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="27" pc="268436869" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="14" symbol="imageLabel"/>
+<entry field="true" id="20" symbol="badlands"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8" object="true" symbol="MoveView"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="19" symbol="grand_canyon"/>
+<entry id="8388770" module="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="15" symbol="colorLabels"/>
+<entry id="8388769" module="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="23" symbol="AppName"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="13" symbol="numImages"/>
+<entry field="true" id="12" symbol="imageIndex"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry field="true" id="22" symbol="LauncherIcon"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="8389348" symbol="font"/>
+<entry id="9" object="true" symbol="MoveApp"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="21" symbol="yellowstone"/>
+<entry id="18" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="11" symbol="background"/>
+<entry id="16" method="true" symbol="setBackground"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="17" module="true" symbol="Menus"/>
+<entry field="true" id="10" symbol="resourceNames"/>
+<entry field="true" id="8388913" symbol="stepGoal"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268436514" name="x" stackId="7" startPc="268435836"/>
+<entry endPc="268436514" name="adjustedMin" stackId="4" startPc="268435836"/>
+<entry endPc="268436514" name="steps" stackId="2" startPc="268435836"/>
+<entry endPc="268436514" name="adjustedHour" stackId="5" startPc="268435836"/>
+<entry endPc="268436514" name="timeString" stackId="6" startPc="268435836"/>
+<entry endPc="268436514" name="clockTime" stackId="3" startPc="268435836"/>
+<entry endPc="268436514" name="y" stackId="8" startPc="268435836"/>
+<entry endPc="268436886" name="rez_cmp_local_label_TimeLabel_fontHeight" stackId="4" startPc="268436645"/>
+<entry endPc="268436886" name="rez_cmp_local_label_TimeLabel_font" stackId="2" startPc="268436645"/>
+<entry endPc="268436886" name="rez_cmp_local_label_TimeLabel" stackId="3" startPc="268436645"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry name="initialize" parent="MoveView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onLayout" parent="MoveView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onShow" parent="MoveView">
+<documentation><![CDATA[<div class="description"> Called when this View is brought to the foreground. Restore<br/> the state of this View and prepare it to be shown. This includes<br/> loading resources into memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onUpdate" parent="MoveView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onHide" parent="MoveView">
+<documentation><![CDATA[<div class="description"> Called when this View is removed from the screen. Save the<br/> state of this View here. This includes freeing resources from<br/> memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onExitSleep" parent="MoveView">
+<documentation><![CDATA[<div class="description"> The user has just looked at their watch. Timers and animations may be started here.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onEnterSleep" parent="MoveView">
+<documentation><![CDATA[<div class="description"> Terminate any active timers and prepare for slow updates.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="setBackground" parent="MoveView">
+<param id="index"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="initialize" parent="MoveApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStart" parent="MoveApp">
+<documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onStop" parent="MoveApp">
+<documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="getInitialView" parent="MoveApp">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+</debugInfo>
