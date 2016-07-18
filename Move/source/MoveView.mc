@@ -91,6 +91,7 @@ class MoveView extends Ui.WatchFace {
     }
     
     function setBackground(index) {
+    	background = null;
     	background = Ui.loadResource(resourceNames[imageIndex % numImages]);
     }
 

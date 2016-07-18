@@ -33,14 +33,15 @@
 <entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="75" pc="268436346" symbol="onUpdate"/>
 <entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="76" pc="268436442" symbol="onUpdate"/>
 <entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="94" pc="268436526" symbol="setBackground"/>
-<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveApp.mc" lineNum="6" pc="268436578" symbol="initialize"/>
-<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveApp.mc" lineNum="19" pc="268436605" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="22" pc="268436645" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="23" pc="268436659" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="24" pc="268436756" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="25" pc="268436771" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="26" pc="268436823" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="27" pc="268436869" symbol="WatchFace"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveView.mc" lineNum="95" pc="268436535" symbol="setBackground"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveApp.mc" lineNum="6" pc="268436587" symbol="initialize"/>
+<entry filename="C:\\Git\\connect_iq_watch\\Move\\source\\MoveApp.mc" lineNum="19" pc="268436614" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="22" pc="268436654" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268436668" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268436765" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="25" pc="268436780" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="26" pc="268436832" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="27" pc="268436878" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="14" symbol="imageLabel"/>
@@ -91,9 +92,9 @@
 <entry endPc="268436514" name="timeString" stackId="6" startPc="268435836"/>
 <entry endPc="268436514" name="clockTime" stackId="3" startPc="268435836"/>
 <entry endPc="268436514" name="y" stackId="8" startPc="268435836"/>
-<entry endPc="268436886" name="rez_cmp_local_label_TimeLabel_fontHeight" stackId="4" startPc="268436645"/>
-<entry endPc="268436886" name="rez_cmp_local_label_TimeLabel_font" stackId="2" startPc="268436645"/>
-<entry endPc="268436886" name="rez_cmp_local_label_TimeLabel" stackId="3" startPc="268436645"/>
+<entry endPc="268436895" name="rez_cmp_local_label_TimeLabel_fontHeight" stackId="4" startPc="268436654"/>
+<entry endPc="268436895" name="rez_cmp_local_label_TimeLabel_font" stackId="2" startPc="268436654"/>
+<entry endPc="268436895" name="rez_cmp_local_label_TimeLabel" stackId="3" startPc="268436654"/>
 </localVars>
 <annotations/>
 <functions>
